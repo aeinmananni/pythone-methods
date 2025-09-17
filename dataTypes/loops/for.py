@@ -222,3 +222,15 @@ for values in BMI.values():
             # Values : (34, 187)
             # Values : (23, 190)
             # Values : (55, 182)    
+
+
+for i in range(1,4):{
+    print(i * 2)
+}
+    
+words =["Phyton" ,"is" ,"awesome"]
+
+result = ""
+for word in words:
+    result += word[0]
+print(result)
