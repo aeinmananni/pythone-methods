@@ -79,3 +79,24 @@ how_match = how_match_character("How Are you my name is ayin mannani im 28 years
 print(how_match)
         
 print("------------------------")
+
+def returns_any_range(name:str, n:int=1):
+    result:str=""
+    for i in range(n):
+        result += f" , {name}"
+    return result
+
+returns_function_result = returns_any_range("Ayin")
+
+print(returns_function_result)
+
+print("------------------------")
+
+def Tavan(number:int,t:int=2):
+    result:int = 1
+    for _ in range(t):
+        result *= number
+    return result    
+
+result_tavan_functions = Tavan(2)
+print("Tavan : ", result_tavan_functions);
