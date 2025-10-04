@@ -42,3 +42,45 @@ Car2:Car = Car(color="Blue",price=3200098,brand="Purch")
 
 print("Car1 : ", Car1.Message())
 print("Car2 : ", Car2.Message())
+
+
+print("--------------------------")
+
+
+
+
+class Animals():
+    def __init__(self):
+        pass
+
+    def Eat(self):
+        return "Im Animal and I Can Eat!"
+    
+
+dolfin:Animals = Animals()
+
+print("Animals : " , dolfin.Eat())
+
+print("--------------------")
+
+class Circle():
+    pi:float = 3.1415926
+    def __init__(self,r:int):
+        self.r = r
+
+    def masahat(self):
+        return self.r * self.r * Circle.pi
+
+
+ci:Circle = Circle(20)
+returl :float = ci.masahat()
+print("Circluar Msahat : " , returl)
+        
+
+class PersonMessage:
+    def sey_hello(self):
+        return "Hello!"
+
+message = PersonMessage()            
+
+print(message.sey_hello())
