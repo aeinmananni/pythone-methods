@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: mylibrary
+Version: 1.0.0
+Summary: A simple library management system
+Author: Your Name
+Author-email: your_email@example.com
+License: MIT
+Requires-Python: >=3.7
