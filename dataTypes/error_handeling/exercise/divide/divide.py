@@ -5,3 +5,5 @@ def divide(a: int, b: int):
         return f"Error : {error}"
     else:
         return result
+    finally:
+        print("Division attempted")
