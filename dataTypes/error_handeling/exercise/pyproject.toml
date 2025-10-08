@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "exercise"
+version = "1.0.0"
+description = "A simple example package for learning Python packaging"
+authors = [
+  { name = "ayin_develop_1997", email = "mananniaein1234@gmail.com" }
+]
+requires-python = ">=3.8"
+
+[tool.setuptools.packages.find]
+where = ["."]
