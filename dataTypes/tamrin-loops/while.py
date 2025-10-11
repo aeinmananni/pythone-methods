@@ -23,3 +23,17 @@ while password != "1234":
 
 
 print("دسترسی مجاز : ✅")
+
+print("---------------------------------")
+
+total: int = 0
+
+while True:
+    num = int(input("Please set number if(Exist set zero) : "))
+
+    if num == 0:
+        break
+
+    total += num
+
+print("Total => ", total)
